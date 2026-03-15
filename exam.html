@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Exam</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Simple Online Exam</h2>
+
+<form action="/submit" method="post">
+
+<p>1. What does HTML stand for?</p>
+
+<input type="radio" name="q1" value="a"> Hyper Trainer Marking Language <br>
+<input type="radio" name="q1" value="b"> Hyper Text Markup Language <br>
+<input type="radio" name="q1" value="c"> Hyper Text Marketing Language <br>
+
+<br>
+
+<button type="submit">Submit Exam</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
